@@ -26,6 +26,8 @@ font-weight: 700;
 
 .highlight{
     color:#4D5AE5;}
+.highlight:hover,
+.highlight:focus{color:#404BBF;}
 
 .studio-highlight{
     color:#F4F4FD;}
