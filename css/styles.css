@@ -1,31 +1,60 @@
-body{font-family: "Raleway", sans-serif;
-    font-family: "Roboto", sans-serif;
+body{
+font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
 color:#434455;
 font-size:16px;
 line-height: 1.5;}
-h1{ font-size:56px;
+
+.title{ font-size:56px;
     line-height: 1.1;
+    font-weight:700;
 color:#FFFFFF;}
 .hero{background-color:#2E2F42;}
-h2{font-size:36px;
+.header-primary{font-size:36px;
 line-height:1.1;
 color:#2E2F42;
+font-weight: 700;
 }
-address{
+.contacts-block{
     font-style:normal;
     text-decoration:none;
 }
+.page-footer{
+    color:#F4F4FD;
+    background-color:#2E2F42;
+}
+
+.highlight{
+    color:#4D5AE5;}
+
+.studio-highlight{
+    color:#F4F4FD;}
+.studio-highlight:hover,
+.studio-highlight:active{color:#404BBF;}
+
 .btn{color:#4D5AE5;
-background-color:#E7E9FC;}
+background-color:#E7E9FC;
+cursor:pointer;}
+
 .btn:hover,
 .btn:focus {
     color:#FFFFFF;
     background-color:#404BBF;
 }
 .btn-white{color:#FFFFFF;
-background-color:#4D5AE5}
+background-color:#4D5AE5;
+cursor:pointer;}
+
 .btn-white:hover,
 .btn-white:focus{background-color:#404BBF;}
+
+.logo {
+    font-family: "raleway";
+    font-size:18px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
 .link{font-style: normal;
     text-decoration:none;
     color:#434455;
@@ -33,13 +62,11 @@ background-color:#4D5AE5}
 .link:hover,
 .link:focus {color:#404BBF;
 }
-.logo {
-    font-family: "raleway";
-    font-size:18px;
-    line-height: 1.1;
-}
-.tab-list{font-size:20px;
-    line-height:1.2;
-color:#2E2F42;}
 
-.link .menu{color:#2E2F42;}
+.header-list{font-size:20px;
+    line-height:1.2;
+color:#2E2F42;
+font-weight: 500;}
+
+.menu{font-size:16px;
+font-weight: 500;}
