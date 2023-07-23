@@ -41,10 +41,15 @@ font-weight: 700;
 
 .btn{color:var(--primary-brand-color);
 font-weight: 500;
+font-family: "roboto";
+font-size:16px;
+line-height:1.5;
 background-color:var(--light-mode-color);
 cursor:pointer;
 box-shadow:none;
 border:1px solid #E7E9FC;
+border-radius: 4px;
+letter-spacing: 0.64px;
 }
 
 .btn:hover,
@@ -52,16 +57,20 @@ border:1px solid #E7E9FC;
     color:#FFFFFF;
     background-color:var(--pressed-state-color);
     border:1px solid var(--pressed-state-color);
-    box-shadow: 0px 2px 2px 0px #0000001F;
-    box-shadow: 0px 2px 1px 0px #00000014;
-    box-shadow: 0px 3px 1px 0px #0000001A;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
   }
 
 .btn-white{color:#FFFFFF;
     font-weight: 500;
+    font-family: "roboto";
+    font-size:16px;
+    line-height:1.5;
     background-color:var(--primary-brand-color);
     cursor:pointer;
     border:var(--primary-brand-color);
+    border-radius: 4px;
+    letter-spacing: 0.64px;
 }
 
 .btn-white:hover,
@@ -77,6 +86,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
     line-height: 1.1;
     font-weight: 800;
     text-transform: uppercase;
+    color:#2E2F42;
 }
 
 .highlight{
